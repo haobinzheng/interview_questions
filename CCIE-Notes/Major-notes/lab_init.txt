@@ -1,0 +1,60 @@
+alias exec b show ip inter brief
+alias exec c show run
+alias exec t conf t
+alias exec i show ip route
+alias exec o show ip ospf
+alias exec bg show ip bgp
+alias exec bn show ip bgp nei
+alias exec bs show ip bgp sum
+alias exec n show ip os nei
+alias exec l show access-list
+alias exec od show ip os data
+alias exec rd show ip rip data
+alias exec co show run | beg router ospf
+alias exec cb show run | beg router bgp
+
+
+OSPF -
+P2P,P2M,Broadcast,non-Broadcast,Virtual-Link,demand-circuit,summarization
+BGP -
+confederation,aggregate,supress-map,community,dampening,MED,as-path,reg-exp,s
+ync,as-set,peer group,advertise-map,password
+EIGRP - summary,distribute-list,route-map, load-balancing
+RIP - v1,v2,authentication,timer
+IGRP - default-network, split-horizon, timer
+IS-IS - L1,l2,password,priority, L1&L2 circuit
+ATM - PVC P2P, PVC P2M, SVC, CLIP,ATM QoS
+IPX - RIP,EIGRP,NLSP,SAP,Watch-dog,SPX-spoof,GNS,floating-static
+DLSW - TCP,FST,Direct,Frame,Border
+peer,cluster,sap-priority,locaddr-priority,transparent map.
+IP Sec - ESP,AH,transport/tunnel,pre-share key,RSA key,CET,CA
+Voice - VOIP,VOFR,num-exp,dial-peer,FXO,FXS
+Multicast - PIM-DM/SM,RP,auto-rp,dvmrp
+QoS - Priority queue,custom queue,WFQ,RED,WRED,RSVP,GTS,FRTS
+Access-List - Dynamic,Reflex,Intercept,CBAC
+ISDN - PPP, Multilink,CHAP,PPP,Call back,Dialer Watch, Snapshot
+Bridge - SRB,SRT,TB,SR/TLB,bridge priority
+Catalyst - logging,permit list,port security,port channel,trunk,
+static/dynamic map
+Misc - DHCP,NAT,HSRP,NTP,SNMP,TFTP,Syslog,RMON,RSH,SSH,IP-Accounting,moble ip
+
+Since this is a Routing & Switching lab.  I went through all the routing
+protocols, not just the command references but also how they work.  When I see
+a question on the lab.  You would know the exact config you need to make it
+work.
+
+If you go through the above list, understand your routing protocols and knows
+the exact config when you see the requirements.  I'm sure you will pass the
+exam with ease.
+
+Last but not least.  I want to thank Paul for hosting this group and I want to
+thank all of the members in this group.  You guys helped me pass my lab.
+
+
+Good Luck to all of you and let us know when you pass.
+
+
+CCIE Security next
+
+Charles Huang
+CCIE 8431
